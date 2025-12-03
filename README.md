@@ -1,10 +1,10 @@
-#Medical Image Captioning – Report Generation
+# Medical Image Captioning – Report Generation
 
-##Overview
+## Overview
 This project implements an automated captioning system for chest X-ray images by combining a CNN-based visual encoder with a transformer-based text decoder. 
 The pipeline extracts meaningful radiological features using DenseNet121 and generates structured, clinically-aware descriptions to support diagnostic workflows.
 
-##Features
+## Features
 
 1.High-quality feature extraction using a fine-tuned DenseNet121 encoder
 
@@ -16,7 +16,7 @@ The pipeline extracts meaningful radiological features using DenseNet121 and gen
 
 5.Modular architecture that can be extended to other imaging modalities
 
-##How It Works
+## How It Works
 
 *Preprocessing: Images are normalized, resized, and cleaned.
 
